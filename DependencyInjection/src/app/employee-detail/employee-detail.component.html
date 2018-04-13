@@ -1,0 +1,9 @@
+<div>
+  {{errorMsg}}
+  Employee detail :
+</div>
+
+<ul *ngFor="let detail of employees">
+  <li>{{detail.id}}. {{detail.name}} - {{detail.age}}</li>
+
+</ul>

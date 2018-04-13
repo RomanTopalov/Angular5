@@ -1,0 +1,16 @@
+
+<div *ngIf="displayName; then thenBlock; else elseBlock">
+
+</div>
+
+<ng-template #thenBlock>
+  <h3>
+    Welcome Roma
+  </h3>
+</ng-template>
+
+<ng-template #elseBlock>
+  <h3>
+    Name is hidden
+  </h3>
+</ng-template>

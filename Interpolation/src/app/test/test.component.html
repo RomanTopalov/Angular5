@@ -1,0 +1,42 @@
+<!--<h2>
+  Welcome {{name}}
+</h2>
+  <div>
+      {{"Welcome " + name}}
+
+    <div>{{greetingUser()}}</div>
+    <input [id]="myId" type="text" value='Roma' >
+    <input bind-disabled="isDisabled" id="{{myId}}" type="text" value='Roma' >
+
+    <div class="text-success">
+        Hello
+    </div>
+
+    <div [ngClass]="messageClasses">Romario</div>
+</div>-->
+
+
+<!--<p [style.color]="hasError? 'red' : 'green'">
+  Hello Romario !
+</p>
+
+<p [style.color]="hightLightColor" >Hello Romas</p>-->
+
+
+<button (click)="onClick($event)" >Greet</button>
+{{greeting}}
+
+<input #myInput type="text">
+<button (click)="logMessage(myInput.value)" >Log</button>
+
+
+
+
+
+
+
+
+
+
+
+
